@@ -75,3 +75,15 @@ html {
 .advice__text::after {
   content: close-quote;
 }
+
+@media (max-width: 37.5em) {
+  .advice__container {
+    width: 90%;
+    padding: 1.6rem 2.4rem 0 2.4rem;
+  }
+
+  .advice__text {
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+}
